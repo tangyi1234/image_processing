@@ -13,6 +13,7 @@
 		A28D57C420C93B0A003DF36C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28D57C320C93B0A003DF36C /* Assets.xcassets */; };
 		A28D57C720C93B0A003DF36C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28D57C520C93B0A003DF36C /* LaunchScreen.storyboard */; };
 		A28D57CA20C93B0A003DF36C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D57C920C93B0A003DF36C /* main.m */; };
+		A28D57D220C93F5F003DF36C /* TYImageProcessingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D57D120C93F5F003DF36C /* TYImageProcessingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A28D57C620C93B0A003DF36C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A28D57C820C93B0A003DF36C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A28D57C920C93B0A003DF36C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A28D57D020C93F5F003DF36C /* TYImageProcessingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYImageProcessingViewController.h; sourceTree = "<group>"; };
+		A28D57D120C93F5F003DF36C /* TYImageProcessingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYImageProcessingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A28D57B820C93B0A003DF36C /* AppDelegate.m */,
 				A28D57BA20C93B0A003DF36C /* ViewController.h */,
 				A28D57BB20C93B0A003DF36C /* ViewController.m */,
+				A28D57D020C93F5F003DF36C /* TYImageProcessingViewController.h */,
+				A28D57D120C93F5F003DF36C /* TYImageProcessingViewController.m */,
 				A28D57C320C93B0A003DF36C /* Assets.xcassets */,
 				A28D57C520C93B0A003DF36C /* LaunchScreen.storyboard */,
 				A28D57C820C93B0A003DF36C /* Info.plist */,
@@ -144,6 +149,7 @@
 				A28D57BC20C93B0A003DF36C /* ViewController.m in Sources */,
 				A28D57C220C93B0A003DF36C /* imageProcessing.xcdatamodeld in Sources */,
 				A28D57CA20C93B0A003DF36C /* main.m in Sources */,
+				A28D57D220C93F5F003DF36C /* TYImageProcessingViewController.m in Sources */,
 				A28D57B920C93B0A003DF36C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

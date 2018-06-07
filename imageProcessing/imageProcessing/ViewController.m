@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TYImageProcessingViewController.h"
 
 @interface ViewController ()
 
@@ -29,7 +30,8 @@
 }
 
 - (void)selectorBut {
-    
+    TYImageProcessingViewController *vc = [[TYImageProcessingViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
